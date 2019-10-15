@@ -2,13 +2,73 @@
 .App {
   background: #D9E0D4; 
 }
-.nav {
+.w-100 {
   width: 100%;
-  height: 56px;
-  padding: none;
-  text-align:center;
-  background-color:orangered;
-  list-style-type: none;
-
 }
 
+.fixed {
+  position: fixed;
+}
+
+.white {
+  color: #fff;
+}
+
+.tt {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.bg-orange-90 {
+  background-color: #D9741C;
+}
+.db {
+  display: block;
+}
+.tc {
+  text-align: center;
+}
+
+.pv3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.ph3 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.f6 {
+  font-size: .875rem;
+}
+
+@media screen and (min-width: 30em) {
+  .pv4-ns {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .ph4-m {
+      padding-left: 2rem;
+      padding-right: 2rem;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .ph5-l {
+      padding-left: 4rem;
+      padding-right: 4rem;
+  }
+}
