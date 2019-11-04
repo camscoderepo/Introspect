@@ -7,7 +7,7 @@ const Navigation = () => {
 		  <nav>
 		    <h1 className="normal fw6 ttu tc db tt pl4" href="#" title="Home">
 		    	Introspect
-		    	<span className="fr ph3">&#8942;</span>
+		    	<span className="fr ph3 dim pointer">&#8942;</span>
 		    </h1>
 		  </nav>
 		</header>
