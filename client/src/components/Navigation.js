@@ -3,12 +3,15 @@ import './Navigation.css';
 
 const Navigation = () => {
     return (
-		<header className="bg-orange fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l">
-		  <nav className="fw6 ttu tracked">
-		    <li className="tc db tt white" href="#" title="Home">Introspect</li>
+		<header className="fixed w-100">
+		  <nav className="fw6 ttu tracked white">
+		    <h1 className="tc db tt" href="#" title="Home">
+		    	Introspect
+		    	<span className="fr ph2">&#8942;</span>
+		    </h1>
 		  </nav>
 		</header>
-    ); 
+    );
 }
 
 export default Navigation;

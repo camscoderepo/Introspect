@@ -1,10 +1,10 @@
-.tt {
+header {
+  background-color: #D9741C;
+}
+
+h1 {
   font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
-}
-
-.bg-orange {
-  background-color: #D9741C;
 }
