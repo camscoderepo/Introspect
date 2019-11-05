@@ -1,13 +1,17 @@
 import React from 'react';
+import './Navigation.css';
 
 const Navigation = () => {
-    return(
-<header className="bg-orange-90 fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l">
-  <nav className="f6 fw6 ttu tracked">
-    <li className="tc db tt" href="#" title="Home">Introspect</li>
-  </nav>
-</header>
-    ); 
+    return (
+		<header className="fixed w-100">
+		  <nav>
+		    <h1 className="normal fw6 ttu tc db tt pl4 pointer" href="#" title="Home">
+		    	Introspect
+		    	<span className="fr ph3 dim pointer">&#8942;</span>
+		    </h1>
+		  </nav>
+		</header>
+    );
 }
 
 export default Navigation;
